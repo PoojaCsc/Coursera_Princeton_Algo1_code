@@ -10,11 +10,11 @@ public class QuickFindUF {
 	}
 	
 	public boolean connected(int p , int q){  // two objects p and q are connected iff their ids are equal
-		return id[p] == id[q];				// Complexity : O(1)
+		return id[p] == id[q];
 	}
 	
 	public void union(int p , int q){   // to connect  p and q , make id of p equal to q
-		int pid = id[p];				// Complexity : O(N)
+		int pid = id[p];
 		int qid = id[q];
 		for(int i = 0 ; i < id.length; i++)
 			if(id[i] == pid)
