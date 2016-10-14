@@ -1,0 +1,5 @@
+package week1.api;
+
+public class QuickFindUF {
+
+}
